@@ -1,7 +1,7 @@
 
 # MangaRead Backend Project
 
-This is the backend for a manga reading application, currently under active development. It features a powerful web API and a flexible web crawler. This project is open-source, and I'm regularly updating the repository.
+This is the backend for a manga reading application, currently under active development. It features a powerful web API and a flexible [Web Crawler](https://github.com/Kalmera74/MangaRead.Crawler). This project is open-source, and I'm regularly updating the repository.
 
 ## Key Features
 
