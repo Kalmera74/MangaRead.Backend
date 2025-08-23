@@ -1,0 +1,16 @@
+# Build outputs
+/src/*/bin/
+/src/*/obj/
+
+/.vs
+/.vscode
+
+# Database files
+*.db
+
+# Logs
+/src/*/logs/
+
+# Static files and folders
+/src/*/wwwroot/storage/
+
