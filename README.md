@@ -1,7 +1,7 @@
 # Manga Read Backend
 
-MangaRead Backend is a scalable, DDD-based backend for a manga and WebNovel reading application.  
-It provides a RESTful API, flexible file storage (local or S3), database migrations, and integrates seamlessly with the [MangaRead Crawler](https://github.com/Kalmera74/MangaRead.Crawler).
+MangaRead Backend is a scalable, DDD-based backend for a Manga et all and WebNovel reading application.  
+It provides a RESTful API, flexible file storage (local or S3) or streaming from an external source, database migrations, and integrates seamlessly with the [MangaRead Crawler](https://github.com/Kalmera74/MangaRead.Crawler).
 
 ## Key Features
 
@@ -24,6 +24,23 @@ The project follows the principles of Domain-Driven Design (DDD) to create a loo
 - **MangaRead.Infrastructure:** Handles external concerns like database access (using EF Core), file storage (local or S3), and other third-party services.
 - **MangaRead.API:** The presentation layer, exposing the application's functionality through a RESTful API built with ASP.NET Core.
 
+### Technologies Used 
+
+  - **Backend Framework:** .NET Core 8
+
+  - **Architecture:** Domain-Driven Design (DDD)
+
+  - **Database:** SQLite (for development), MySQL (production-ready)
+
+  -  **ORM:** Entity Framework Core
+
+  - **Logging:** Serilog
+
+  - **Containerization:** Docker
+
+  - **File Storage:** Local file system, S3-compatible storage
+
+  -  **Shell Scripting:** build.sh (Bash)
 ---
 
 ## Quick Start
