@@ -7,6 +7,7 @@ It provides a RESTful API, flexible file storage (local or S3) or streaming from
 
 - **Domain-Driven Design (DDD):** Clean, maintainable architecture.
 - **RESTful API:** Manage mangas, chapters, authors, and more.
+- **Swagger Documentation:** Swagger documentation for API endpoints
 - **Flexible File Storage:** Supports local and S3-compatible storage.
 - **Database Migrations:** Uses Entity Framework Core.
 - **Containerized:** Ready to run with Docker.
