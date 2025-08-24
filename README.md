@@ -52,7 +52,6 @@ The API will listen on `8080` on all interfaces as per the `appsettings.json` fi
 Build and run the Docker image:
 
 ```bash
-
 docker build -t manga-api .
 docker run -d -p 8080:8080 manga-api
 ```
@@ -87,10 +86,13 @@ Both variables are set to these values by default when running in **Development*
 
 This project includes a `build.sh` script that automates deployment:
 
-1. Builds and publishes the Crawler
-2. Configures as a system service (auto-restart, logging)
-3. Starts/reloads the service
-4. Adds CLI shortcuts for management
+1. Builds and publishes the API
+2. Applies database migrations
+3. Configures as a system service (auto-restart, logging)
+4. Starts/reloads the service
+5. Adds CLI shortcuts for management
+
+
 
 ## Configuration
 
